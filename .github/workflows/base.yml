@@ -48,5 +48,5 @@ jobs:
           echo test, and deploy your project.
           ls
           cat test.txt || true
-          echo "${{ input.myvalue }}"
-          echo "${{ input.myOtherValue }}"
+          echo "${{ inputs.myvalue }}"
+          echo "${{ inputs.myOtherValue }}"
